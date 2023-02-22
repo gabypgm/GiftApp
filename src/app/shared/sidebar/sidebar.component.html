@@ -4,4 +4,7 @@
     <div class="list-group list-reset">
      <a href="#" class="list-group-item list-group-item-action"> Dashboard</a>
     </div>
+    <ul *ngFor="let item of historial" class="text-white">
+        <li>{{item | titlecase}}</li>
+    </ul>
 </div>
